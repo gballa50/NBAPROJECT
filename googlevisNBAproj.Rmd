@@ -1,0 +1,17 @@
+---
+output:html
+---
+
+```{r}
+library(googleVis)
+
+
+plot(bar)
+```
+
+```{r}
+m=gvisMotionChart(nbafran06_12, idvar = "team", timevar="year", yvar="revenue")
+
+plot(m)
+
+```
